@@ -7,10 +7,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy-gh": "gh-pages -d dist"
+    "deploy-gh": "gh-pages -d dist",
+    "start": "node server.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "express": "^4.16.4",
     "vue": "^2.6.6"
   },
   "devDependencies": {
