@@ -2,12 +2,10 @@
   "name": "exercises",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sirius93.github.io/VuejsAssignments/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy-gh": "gh-pages -d dist",
     "start": "node server.js"
   },
   "dependencies": {
@@ -23,7 +21,6 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21",
-    "gh-pages": "^1.2.0"
+    "vue-template-compiler": "^2.5.21"
   }
 }
