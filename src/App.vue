@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello World, This is a github pipeline deployment"/>
+    <HelloWorld msg="Hello World, This is github pipeline deployment"/>
   </div>
 </template>
 
